@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inconsolata:wght@200;300;400;500;600;700&family=Mr+Dafoe&family=Nunito:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+
+
+.logo::first-letter{
+    color: red;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+
+.nav-link{
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+}
+.nav-btn{
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px 75px;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 6px
+}
+
+.nav-link:hover{
+    color: blue;
+    font-size: 25px;
+}
+
+.card-1{
+    
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px 2px;
+}
+.card-display{
+    display: flex;
+    
+
+}
+.heading{
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+.heading-link{
+    text-decoration: none;
+    color: black;
+    
+}
+.heading-link:hover{
+    color: dodgerblue;
+   
+
+}
+
+
+.feedback-user{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.feedback-user-container{
+    display: flex;
+    justify-content: center;
+    margin-top: -52px;
+}
+.fd1{
+    background-color: rgb(249, 249, 253);
+}
+.fd2{
+    background-color: rgb(205, 205, 205);
+
+}
+.feedback-container h2{
+    margin-bottom: 0px;
+}
+.feedback-container p{
+    font-size: 15px;
+}
+
+@media(min-width:586px){
+    nav{
+        margin: 0 auto;
+        border-bottom: 1px solid lightgray;
+        
+   
+   }
+    .navbar{
+        display: flex;
+       /* border-bottom: 1px solid lightgray;*/
+        justify-content: space-between;
+        align-items: center;
+        padding: 2px 0px;
+        width: 900px;
+    }
+    .navbar-links{
+        list-style-type: none;
+        display: flex;
+    
+    }
+    .hero-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    section{
+        width: 900px;
+        margin: 50px auto;
+      
+     }
+     .intro{
+        width: 600px;
+    }
+    .img{
+        border-radius: 50%;
+        width: 180px;
+        height: 180px;
+        
+    
+    }
+    .detail{
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    .logo{
+        text-decoration: none;
+        font-size: 30px;
+        font-family: 'Great Vibes', cursive;
+        color: black;
+        font-weight: 400;
+    
+    }
+    .title{
+        font-size: 45px;
+        margin-bottom: 5px;
+    }
+    .nav-btn:hover{
+        background-color:white;
+        color: black;
+        border: 1px solid black;
+        
+    }
+    .blog-container{
+        display: flex;
+        
+    }
+    .blog-card{
+        width: 310px;
+        box-shadow: 2px 4px 6px 4px lightgray;
+        border-radius: 10px;
+        padding: 8px;
+        margin: 7px;
+        transition: 200ms;
+        
+    }
+    .feedback-container-header{
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    .feedback-container{
+        width: 350px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    input{
+        width: 100%;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 5px;
+        box-sizing: border-box;
+        
+    }
+    .disscuss-title{
+        font-size: 27px;
+        margin-bottom: -15px;
+    }
+    input:focus,textarea:focus{
+          outline: none;
+          border: 1px solid green;
+    }
+    
+    textarea{
+        width: 100%;
+        border: 1px solid lightgrey;
+        padding: 10px;
+        margin: 5px;
+        box-sizing: border-box;
+    
+    }
+    .btn{
+        background-color: dodgerblue;
+        padding: 15px;
+        border: 1px solid;
+        border-radius: 10px;
+        color: white;
+        font-size: 15px;
+        margin-left: 200px;
+    }
+    .btn:hover{
+        background-color: lightgray;
+    }
+    
+
+}
+
+@media(max-width:586px){
+    nav{
+        margin: 0 auto;
+        border-bottom: none;
+        
+   
+   }
+    .navbar{
+
+       /* border-bottom: 1px solid lightgray;*/
+       margin-top: 15px;
+       text-align: center;
+
+    }
+    .navbar-links{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        font-weight: 800;
+        margin-top: 15px;
+        margin-left: -35px;
+        margin-right: 30px;
+        
+    }
+      
+    .hero-container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap-reverse;
+        text-align: center;
+        align-items: center;
+    }
+    section{
+        margin: 3px 6%;
+      
+     }
+    .intro{
+        text-align: center;
+    }
+    .img{
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        margin: 20px auto 5px auto;
+        
+    
+    }
+    .detail{
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .logo{
+        text-decoration: none;
+        font-size: 25px;
+        font-family: 'Great Vibes', cursive;
+        color: red;
+    
+    
+    }
+    .logo::first-letter{
+        color: green;
+    }
+    
+    .title{
+        font-size: 30px;
+        margin-bottom: 5px;
+        margin-top:  0px;
+    }
+    .nav-btn:hover{
+        background-color:white;
+        color: black;
+        border: 1px solid black;
+        
+    }
+    .blog-container{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .blog-card{
+        width: 310px;
+        box-shadow: 2px 4px 6px 4px lightgray;
+        border-radius: 10px;
+        padding: 8px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        transition: 200ms;
+        flex-grow: 1;
+        
+    }
+    
+    .feedback-container-header{
+        display: flex;
+        flex-wrap: wrap;
+        
+    
+    }
+    .feedback-container{
+        width: 360px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+        margin-top: 45px;
+        margin-bottom: 10px;
+        flex: grow 1; 
+    }
+    .card-1 p{
+        font-size: 14px;
+    }
+    
+    input{
+        width: 100%;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 5px;
+        box-sizing: border-box;
+        
+    }
+    .disscuss-title{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    input:focus,textarea:focus{
+          outline: none;
+          border: 1px solid green;
+    }
+    
+    textarea{
+        width: 100%;
+        border: 1px solid lightgrey;
+        padding: 10px;
+        margin: 5px;
+        box-sizing: border-box;
+    
+    }
+    .btn{
+        background-color: dodgerblue;
+        padding: 12px;
+        border: 1px solid;
+        border-radius: 5px;
+        color: white;
+        font-size: 15px;
+    
+    }
+    .btn:hover{
+        background-color: lightgray;
+    }
+   
+}
+
+
+.blog-card:hover{
+    transform: rotate(2deg);
+
+}
+
+.h3{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.p{
+    margin-top: 0px;
+}
+
+.blog-card-img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+
+
+
+
+
