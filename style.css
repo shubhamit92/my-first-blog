@@ -111,6 +111,13 @@ body{
         display: flex;
     
     }
+    .img-1{
+        height: 22px;
+        width: 32px;
+        margin-top: 2px;
+        margin-left: 35px;
+        
+    }
     .hero-container{
         display: flex;
         justify-content: space-between;
@@ -239,11 +246,18 @@ body{
     .navbar-links{
         list-style-type: none;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         font-weight: 800;
         margin-top: 15px;
         margin-left: -35px;
         margin-right: 30px;
+        
+    }
+    .img-1{
+        height: 16px;
+        width: 22px;
+        margin-top: 2px;
+        margin-left: 15px;
         
     }
       
